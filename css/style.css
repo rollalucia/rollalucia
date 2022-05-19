@@ -154,13 +154,44 @@ td {
 
 #services {
     background-color: #444;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}
+#services-card {
+    width: 80%;
     display: flex;
+    /* border: 3px solid green; */
+}
+#services-card>div {
+    flex: 1;
+}
+#services-card-text {
+    /* border: 3px solid white; */
+    text-align: center;
+}
+#services-card-text>h2 {
+    font-size: 3rem;
+}
+#services-card>div>p {
+    font-size: 1.5rem;
+    width: 40ch;
+    margin: auto;
+
 }
 .design-icons{
     height: 100px;
+    /* border: 3px solid blue; */
 }
 #iconos {
     display: flex;
+    justify-content: space-evenly;
+    /* border: 3px solid red; */
+
+}
+#iconos>div>p {
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 #portfolio {
     background-color: white;
