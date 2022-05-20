@@ -194,7 +194,54 @@ td {
     font-weight: 500;
 }
 #portfolio {
-    background-color: white;
+    background-color: #8f5442;
+}
+#portfolio h2 {
+    text-align: center;
+    font-size: 300%;
+}
+#card-proyectos {
+    border: 3px solid grey;
+    height: 60%;
+    display: flex;
+    
+}
+#en-desarrollo, #finalizados {
+    flex: 1;
+}
+#finalizados {
+    border: 3px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#card-proyectos h3 {
+    font-size: 150%;
+   text-align: center;
+}
+#en-desarrollo {
+    border: 3px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#mascotitasbabla {
+    /* border: 3px solid green; */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#mascotitasbabla p {
+    width: 40ch;
+}
+
+#finalizados img {
+    width: 30%;
+    height: 60%;
 }
 
 footer {
