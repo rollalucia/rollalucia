@@ -210,7 +210,7 @@ td {
     flex: 1;
 }
 #finalizados {
-    border: 3px solid grey;
+    border: 1.5px solid grey;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -221,7 +221,7 @@ td {
    text-align: center;
 }
 #en-desarrollo {
-    border: 3px solid grey;
+    border: 1.5px solid grey;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
