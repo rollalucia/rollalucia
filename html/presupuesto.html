@@ -36,10 +36,10 @@
             Trabajemos juntos
         </h2>
         <form action="">
-            <label for="nombre">Tu nombre</label>
-            <input type="text" name="nombre"> 
+            <label for="nombre" class="presupuesto-text" >Tu nombre</label> <br>
+            <input type="text" class="entrada-texto" name="nombre"> 
             <fieldset>
-                <legend>Tu presupuesto es</legend>
+                <legend class="presupuesto-text">Tu presupuesto es</legend>
                 <input type="radio" name="presupuesto" id="hasta-dosmil">
                 <label for="hasta-dosmil">< $2000</label> <br>
                 <input type="radio" name="presupuesto" id="hasta-diezmil">
@@ -47,8 +47,8 @@
                 <input type="radio" name="presupuesto" id="mas-diezmil">
                 <label for="mas-diezmil">> $10000</label>
             </fieldset>
-            <label for="proyecto">Contame tu idea </label> <br>
-            <textarea name="proyecto" id="proyecto" style="resize: none;"></textarea>
+            <label for="proyecto" class="presupuesto-text">Contame tu idea </label> <br>
+            <textarea class="entrada-texto" name="proyecto" id="proyecto" style="resize: none;"></textarea>
             <button type="submit">Enviar</button>
         </form>
     </main>
