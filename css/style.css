@@ -270,7 +270,7 @@ footer>i {
     align-items: center;
 }
 
-h2 {
+.titulo-secundario {
     font-family: 'Cookie', cursive;
     font-size: 4rem;
 }
@@ -307,5 +307,5 @@ textarea {
     width: 100%;
 }
 button {
-    width: 50%;
+    width: 100%;
 }
