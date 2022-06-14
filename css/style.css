@@ -29,26 +29,16 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 5rem;
+    padding: 0 1rem;
 }
-
-
-
 header>img {
-    width: 100px;
-    flex: 0 0 100px;
-    height: 56.1px;
+    max-height: 100%;
 }
-
-header nav {
-    flex-grow: 1;
-}
-
 ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
-    padding-right: 100px;
 }
 
 main {
