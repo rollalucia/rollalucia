@@ -245,6 +245,13 @@ td {
 }
 
 footer {
-    background-color: whitesmoke;
-    height: 1rem;
+    background-color: #222;
+    padding: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer>p:first-child {
+    color: white;
 }
