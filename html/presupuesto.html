@@ -32,7 +32,25 @@
         </nav>
     </header>
     <main class="main-presupuesto">
-
+        <h2>
+            Trabajemos juntos
+        </h2>
+        <form action="">
+            <label for="nombre">Tu nombre</label>
+            <input type="text" name="nombre"> 
+            <fieldset>
+                <legend>Tu presupuesto es</legend>
+                <input type="radio" name="presupuesto" id="hasta-dosmil">
+                <label for="hasta-dosmil">< $2000</label> <br>
+                <input type="radio" name="presupuesto" id="hasta-diezmil">
+                <label for="hasta-diezmil">$2000 - $10000</label> <br>
+                <input type="radio" name="presupuesto" id="mas-diezmil">
+                <label for="mas-diezmil">> $10000</label>
+            </fieldset>
+            <label for="proyecto">Contame tu idea </label> <br>
+            <textarea name="proyecto" id="proyecto" style="resize: none;"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
     </main>
     <footer>
         <p>Hecho por RollaLucía </p>
