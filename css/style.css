@@ -250,8 +250,19 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
-
+footer p,
+footer i {
+ flex-basis: 33%;
+}
 footer>p:first-child {
     color: white;
+}
+footer>i {
+    text-align: center;
+    color: #8f5442;
+}
+#creditos {
+    text-align: end;
 }
