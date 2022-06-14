@@ -31,8 +31,12 @@ header {
     height: 5rem;
     padding: 0 1rem;
 }
-header>img {
+.linkhome {
+    display: block;
     max-height: 100%;
+}
+.logo-inicio {
+    max-height: 70px;
 }
 ul {
     display: flex;
