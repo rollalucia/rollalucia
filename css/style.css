@@ -260,3 +260,22 @@ footer>i {
 #creditos {
     text-align: end;
 }
+
+.main-opinion {
+    height: 90vh;
+    background: rgba(81, 73, 191, 0.697);
+}
+
+h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 4rem;
+}
+
+
+
+
+
+.main-presupuesto {
+    height: 90vh;
+    background: #24E3BA;
+}
